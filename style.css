@@ -47,8 +47,3 @@ button:hover {
 .operator:hover {
   background: darkorange;
 }
-
-button:nth-child(4n) {
-  background: orange;
-  color: white;
-}
