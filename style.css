@@ -8,12 +8,13 @@ body {
 }
 
 .calculator {
-  background: #333;
-  padding: 20px;
-  border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(4, 60px);
+  grid-template-columns: repeat(4, 70px);
   gap: 10px;
+}
+
+.empty {
+  visibility: hidden;
 }
 
 #display {
@@ -36,4 +37,18 @@ button {
 
 button:hover {
   background: #555;
+}
+
+.operator {
+  background: orange;
+  color: white;
+}
+
+.operator:hover {
+  background: darkorange;
+}
+
+button:nth-child(4n) {
+  background: orange;
+  color: white;
 }
