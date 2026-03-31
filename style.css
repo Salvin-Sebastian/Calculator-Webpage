@@ -33,6 +33,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background: #444; 
+  color: white;
 }
 
 button:hover {
@@ -46,4 +48,8 @@ button:hover {
 
 .operator:hover {
   background: darkorange;
+}
+
+.zero {
+  grid-column: span 2;
 }
